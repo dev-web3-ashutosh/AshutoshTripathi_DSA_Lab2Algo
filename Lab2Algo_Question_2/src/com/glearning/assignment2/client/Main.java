@@ -29,7 +29,7 @@ public class Main {
 	       sortedDenominations[i] = denominations[n - i - 1];
 	   }
 	   currencydemo.payment(sortedDenominations, amount);
-
+	   input.close();
 	}
 
 }
